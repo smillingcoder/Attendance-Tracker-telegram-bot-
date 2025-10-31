@@ -12,6 +12,7 @@ Token=os.getenv("token")
 conn=sqlite3.connect("timetable.db")
 c=conn.cursor()
 
+
 def yap_fun(n):
     skull = emoji.emojize(":skull:", language='alias')
     tilted_rose = emoji.emojize(":wilted_rose:", language='alias')
