@@ -5,7 +5,7 @@ It allows you to upload your timetable, mark attendance, and view reports — al
 
 ---
 
-_🎯 **Purpose:** Built to simplify student attendance tracking using Telegram which is already used by many students for their studies — no extra apps, no ads._
+_**🎯 **Purpose:** Built to simplify student attendance tracking using Telegram which is already used by many students for their studies — no extra apps, no ads._
 ---
 
 ## ✨ Features
