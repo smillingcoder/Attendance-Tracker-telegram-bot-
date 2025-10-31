@@ -72,7 +72,7 @@ async def start_command(update: Update,context:ContextTypes.DEFAULT_TYPE):
     
 async def uploadAttendance_command(update:Update,context:ContextTypes.DEFAULT_TYPE):
     context.user_data["mode"] = "attendance"
-    await update.message.reply_text("""enter your attendance history in form of a tuple inside of a list -->   [('subject_name',present_attendance,total_attendance)],[],[]....""")
+    await update.message.reply_text("""enter your attendance history in form of a tuple inside of a list -->   [('subject_name',present_attendance,total_attendance),(),()....]""")
 
 async def create_table_handler(update:Update,context:ContextTypes.DEFAULT_TYPE):
     message_type=update.message 
@@ -99,7 +99,7 @@ async def create_table_handler(update:Update,context:ContextTypes.DEFAULT_TYPE):
 
 async def timetable_command(update:Update,context:ContextTypes.DEFAULT_TYPE):
     context.user_data["mode"] = "timetable"
-    await update.message.reply_text("""please enter your timetable in the given order:[('subject1','subject2','subject3','subject4','subject5'),(),() ] the timetable of monday should be the first tuple then tuesday should be second tuple and so on.....""")
+    await update.message.reply_text("""please enter your timetable in the given order:[('subject1','subject2','subject3','subject4','subject5'),(),()] the timetable of monday should be the first tuple then tuesday should be second tuple and so on.....""")
     
 async def timetable_handler(update:Update,context:ContextTypes.DEFAULT_TYPE):
     message_type=update.message
