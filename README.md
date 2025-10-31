@@ -3,6 +3,8 @@
 A simple and fun **Telegram bot** to manage and track your college attendance using **Python + SQLite**.  
 It allows you to upload your timetable, mark attendance, and view reports — all directly from Telegram.
 
+---
+
 > 🎯 **Purpose:** Built to simplify student attendance tracking using Telegram — no apps, no hassle.
 
 ---
